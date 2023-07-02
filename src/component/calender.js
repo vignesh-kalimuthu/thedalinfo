@@ -21,7 +21,7 @@ export function Calender() {
  {jsonData.map((data,index)=>(
     
   <div className="bg-red-900 p-4 flex flex-col justify-center">
-<button className=" py-1 px-4 py-2 w-80 bg-gradient-to-r from-amber-300 via-yellow-300 to-orange-500 rounded-full flex flex-row items-center justify-center mx-auto">
+<button className="  px-4 py-2 sm:w-80 bg-gradient-to-r from-amber-300 via-yellow-300 to-orange-500 rounded-full flex flex-row items-center justify-center mx-auto">
 <div className="text-lg text-blue-500 font-semibold">இன்றைய நாள்</div>
 <div className="text-2xl text-blue-500 ml-1">|</div>
 <div className="text-lg text-blue-500 ml-3 font-semibold">Today's Panchagam</div>
