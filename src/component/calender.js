@@ -21,11 +21,12 @@ export function Calender() {
  {jsonData.map((data,index)=>(
     
   <div className="bg-red-900 p-4 flex flex-col justify-center">
-<button className="  px-4 py-2 sm:w-80 bg-gradient-to-r from-amber-300 via-yellow-300 to-orange-500 rounded-full flex flex-row items-center justify-center mx-auto">
-<div className="text-lg text-blue-500 font-semibold">இன்றைய நாள்</div>
-<div className="text-2xl text-blue-500 ml-1">|</div>
-<div className="text-lg text-blue-500 ml-3 font-semibold">Today's Panchagam</div>
+<button className="px-4 py-2 w-70 md:w-96 bg-gradient-to-r from-amber-300 via-yellow-300 to-orange-500 rounded-full flex flex-row items-center justify-center mx-auto">
+  <div className=" text-sm md:text-lg text-blue-500 font-semibold flex-shrink-0">இன்றைய நாள்</div>
+  <div className="text-sm md:text-2xl text-blue-500 mx-2">|</div>
+  <div className="text-sm md:text-lg text-blue-500 font-semibold flex-shrink-0">Today's Panchagam</div>
 </button>
+
 <div className="mt-2 md:mt-5 lg:mt-10 flex flex-col mx-auto ">
 <div className="text-sm md:text-lg lg:text-xl text-yellow-200">{data["T Month"]}<span className="text-2xl text-yellow-500 ">/</span>{data["E Month"]},{data["E date"]}</div>
 <hr className=" text-sm md:text-lg lg:text-xl border-yellow-200" />
